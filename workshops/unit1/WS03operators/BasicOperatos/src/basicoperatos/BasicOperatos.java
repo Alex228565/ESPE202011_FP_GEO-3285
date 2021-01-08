@@ -39,8 +39,8 @@ public class BasicOperatos {
         subtrahend = -6;
         multiplicant = 8;
         multiplier = 12;
-        dividend = 19;
-        divisor = 7;
+        dividend = 20;
+        divisor = 2;
         
         sum = addend1 + addend2;
         
