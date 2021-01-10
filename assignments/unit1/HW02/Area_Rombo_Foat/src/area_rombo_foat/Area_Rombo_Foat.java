@@ -21,7 +21,7 @@ public class Area_Rombo_Foat {
         float area_rombo = 0;
         double diagonal = 2.2;
         float base = 2;
-         area_rombo = (float) (diagonal/base);
+         area_rombo = (float) (diagonal * diagonal)/base;
          
                  
         
