@@ -118,36 +118,7 @@ int optionParks;
                                         + "Carchi N122 y Venezuela");
                                  {
                                     int THEBASILICA;
-                                    do {
-                                        System.out.println(name + " you know how to get "
-                                                + "there?");
-                                        System.out.println("1. Yes");
-                                        System.out.println("2. No");
-                                        THEBASILICA = input.nextInt();
-                                        switch (THEBASILICA){
-                                    case 1:
-                                                System.out.println(name + " have a good trip");
-                                                System.exit(0);
-                                                break;
-                                            case 2:
-                                                 System.out.println("");
-					       String LaComuna;
-                                                String sector;
-                                                System.out.println("Enter sector");
-                                                sector = input.nextLine();
-                                                System.out.println("we leave from La Comuna");
-                                                System.out.println("Head north for. "
-                                                        + "José Berrutieta and "
-                                                        + "Take the exit towards Av. Universitaria. "
-                                                        + "At the roundabout, take the 1st exit.");
-                                                System.out.println("continue straight ");
-                                                System.out.println(name + " we got to"
-                                                        + " THE BASILICA");
-                                                System.out.println("Good bye " + name);
-                                                System.exit(0);                                   
-                                                break;
-                                        }
-                                    } while (THEBASILICA != 2
+                                    do THEBASILICA = Funcion(name, input); while (THEBASILICA != 2
                                 
                                 );
                         }                              
@@ -522,6 +493,5 @@ int optionParks;
             }
         } while (option != 6);
     }
-    }
-    
+}
 
