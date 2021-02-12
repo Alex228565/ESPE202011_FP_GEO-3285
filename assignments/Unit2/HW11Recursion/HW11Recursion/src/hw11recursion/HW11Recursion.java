@@ -16,10 +16,11 @@ public class HW11Recursion {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void ShowTHeFacctorial(String[] args) {
         long factorial = 1;
         int num;
         Scanner number = new Scanner(System.in);
+        System.out.println("----- Jhon Castillo ----");
         System.out.print("----- Enter the number ----- : ");
         num = number.nextInt();
         for (int i = num; i > 0; i--) {
