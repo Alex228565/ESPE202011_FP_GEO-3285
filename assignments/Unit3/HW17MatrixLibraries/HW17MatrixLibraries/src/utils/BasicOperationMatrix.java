@@ -3,23 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hw03iterations;
+package utils;
 
 import java.util.Scanner;
-import static javafx.scene.input.KeyCode.P;
 
 /**
  *
  * @author Alex
  */
-public class HW03Iterations {
+public class BasicOperationMatrix {
 
-    /**
-     * @param args the command line arguments
-     */
-    @SuppressWarnings("empty-statement")
-    public static void main(String[] args) {
-      int matrix1[][] = new int[3][3];
+    public static float addTwoMatrix(float matrixa, float matrixb) {
+        int matrix1[][] = new int[3][3];
         int matrix2[][] = new int[3][3];
         int matrizc[][] = new int[3][3];
         int i, j;
@@ -30,7 +25,7 @@ public class HW03Iterations {
 
         for (i = 0; i <= 2; i++) {
             for (j = 0; j <= 2; j++) {
-                System.out.print("Writr value " + i + " , " + j + " : ");
+                System.out.print("Escribir valor " + i + " , " + j + " : ");
                 matrix1[i][j] = dato.nextInt();
             }
         }
@@ -39,7 +34,7 @@ public class HW03Iterations {
 
         for (i = 0; i <= 2; i++) {
             for (j = 0; j <= 2; j++) {
-                System.out.print("Writr value " + i + " , " + j + " : ");
+                System.out.print("Escribir valor " + i + " , " + j + " : ");
                 matrix2[i][j] = dato.nextInt();
             }
         }
@@ -76,7 +71,7 @@ public class HW03Iterations {
 
             for (j = 0; j <= 2; j++) {
 
-                System.out.print("Writr array value A " + i + " , " + j + " : ");
+                System.out.print("Escribir valor de la matriz A " + i + " , " + j + " : ");
 
                 matriza[i][j] = teclado.nextInt();
 
@@ -139,6 +134,9 @@ public class HW03Iterations {
             }
 
             System.out.println();
+
+        }
+
     }
-    
-}
+
+ 
