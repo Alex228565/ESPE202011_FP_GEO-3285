@@ -1,0 +1,1 @@
+null1234,456,little ,Blue and orange,ARISOL,falsenull34556,456,big ,Blue and red,ARISOL,falsenull78545,478,little ,Fuchsia,ARISOL,falsenull23454,33,big ,Light blue,Arise,false
